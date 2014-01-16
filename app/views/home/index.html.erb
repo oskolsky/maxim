@@ -1,0 +1,14 @@
+<% if user_signed_in? %>
+    <h2>Привет <%= current_user.name %></h2>
+    <h3>
+      <%= link_to 'Редактировать', edit_user_registration_path %>
+      <br />
+      <%= link_to 'Сменить пароль', change_password_user_registration_path %>
+      <br />
+      <%= link_to 'Выйти', destroy_user_session_path, method: :delete %>
+    </h3>
+<% else %>
+    <h3>
+      <%= link_to 'Войти', new_user_session_path %>
+    </h3>
+<% end %>

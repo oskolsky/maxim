@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2315140695">
+    <data-source source="LOCAL" name="Rails games: development" uuid="4ae53dc3-4e02-4a92-b803-f4e6e3a52486">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/games_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfd8dfcfdfd9dfc5dfc6dfdcdfcf</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails games: test" uuid="329fed94-1346-420d-b025-5a0d4614a97c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/games_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfd8dfcfdfd9dfc5dfc6dfdcdfcf</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails games: production" uuid="3c9ac87d-e07c-4623-a179-868697138d0b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:games_production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

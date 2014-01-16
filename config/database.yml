@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: games_development
+  pool: 5
+  username: postgres
+  password: resolve
+  host: 127.0.0.1
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: games_test
+  pool: 5
+  username: postgres
+  password: resolve
+  host: 127.0.0.1
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: games_production
+  pool: 5
+  username:
+  password:
